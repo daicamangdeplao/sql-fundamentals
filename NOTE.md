@@ -157,7 +157,7 @@ ON TableA.col_match = TableB.col_match;
 
 - A ``LEFT|RIGHT OUTER JOIN`` results in the set of records that are in the left table, if there is no match with the right table, the results are null.
 
-![Example of LEFT JOIN](./imgs/5-2.png)
+![Example of LEFT JOIN](./5-2.png)
 
 ``` sql
 SELECT *
