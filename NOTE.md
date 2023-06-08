@@ -17,9 +17,9 @@ The content of this note is only about: (a bit) DDL, (a bit) DML, and (a lot) DQ
 - Install PgAdmin 4
 - After downloading ``dvdrental.tar``, you need to restore it by doing so
 
-![Step 1](./imgs/1-0.png)
+![Step 1](./resources/1-0.png)
 
-![Step 2](./imgs/1-1.png)
+![Step 2](./resources/1-1.png)
 
 - Fill in necessary information related to ``dvdrental.tar``
 - Open `Query Tool` and perform `SELECT * FROM film;` to make sure everything works
@@ -117,7 +117,7 @@ FROM a_table
 GROUP BY category_col
 ```
 
-![Aggregate function with GROUP BY](./imgs/3-0.png)
+![Aggregate function with GROUP BY](./resources/3-0.png)
 
 ### Example 1
 
@@ -142,11 +142,11 @@ INNER JOIN TableB
 ON TableA.col_match = TableB.col_match;
 ```
 
-![](./imgs/5-0.png)
+![](./resources/5-0.png)
 
 ### ``OUTER JOIN``
 
-![Example of OUTER JOINT](./imgs/5-1.png)
+![Example of OUTER JOINT](./resources/5-1.png)
 
 ``` sql
 SELECT *
@@ -157,7 +157,7 @@ ON TableA.col_match = TableB.col_match;
 
 - A ``LEFT|RIGHT OUTER JOIN`` results in the set of records that are in the left table, if there is no match with the right table, the results are null.
 
-![Example of LEFT JOIN](./imgs/5-2.png)
+![Example of LEFT JOIN](./resources/5-2.png)
 
 ``` sql
 SELECT *
