@@ -8,7 +8,7 @@ There are 5 components of the SQL language:
 - DQL: data query language, such as SELECT
 - DML: data manipulation language, such as INSERT, UPDATE, DELETE
 - DCL: data control language, such as GRANT, REVOKE
-- TCL: transaction control language, such as COMMIT, ROLLBACK 
+- TCL: transaction control language, such as COMMIT, ROLLBACK
 
 The content of this note is only about: (a bit) DDL, (a bit) DML, and (a lot) DQL.
 
@@ -48,7 +48,7 @@ A table of **Comparision Operators**
 
 Operator            | Description
 --------------------|-------------------------
- =                  | Equal
+ ``=``              | Equal
  ``>``              | Greater than
  ``<``              | Less than
  ``>=``             | Greater than or equal to
@@ -142,7 +142,7 @@ INNER JOIN TableB
 ON TableA.col_match = TableB.col_match;
 ```
 
-![](./resources/5-0.png)
+![An example setup when INNER JOIN comes into play](./resources/5-0.png)
 
 ### ``OUTER JOIN``
 
@@ -309,11 +309,11 @@ FROM film;
 
 ## References
 
-1. https://www.sqltutorial.org/sql-cheat-sheet/
-2. https://www.postgresqltutorial.com/
-3. https://learnsql.com/blog/sql-basics-cheat-sheet/
-4. https://learnsql.com/blog/sql-join-cheat-sheet/
-5. https://www.pgadmin.org/docs/pgadmin4/development/backup_and_restore.html
-6. https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/
-7. https://en.wikipedia.org/wiki/Join_(SQL)
-8. https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7046145129413255168-VvqB?utm_source=share&utm_medium=member_desktop
+1. [SQL Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
+2. [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
+3. [SQL Basics Cheat Sheet](https://learnsql.com/blog/sql-basics-cheat-sheet/)
+4. [SQL JOIN Cheat Sheet](https://learnsql.com/blog/sql-join-cheat-sheet/)
+5. [Backup and Restore](https://www.pgadmin.org/docs/pgadmin4/development/backup_and_restore.html)
+6. [A Visual Explanation of SQL Joins](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
+7. [Join (SQL)](https://en.wikipedia.org/wiki/Join_(SQL))
+8. [SQL Mindmap)](https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7046145129413255168-VvqB?utm_source=share&utm_medium=member_desktop)
