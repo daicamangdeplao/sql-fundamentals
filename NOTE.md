@@ -242,7 +242,7 @@ JOIN film AS f2
 ON f1.film_id != f2.film_id AND f1.length = f2.length;
 ```
 
-## Creating Databases and Tables
+## Creating/Adjusting Databases and Tables
 
 - General syntax of creating a table
 
@@ -266,6 +266,14 @@ CREATE TABLE employee(
   hire_date DATE CHECK (hire_date > birthdate),
   salary INTEGER CHECK (salary > 0)
 );
+```
+
+- It is very usual that you want to add/delete one or more columns to an existing table. To achieve this goal, you need to adjust the table. Now, ``ALTER`` statement comes into play
+
+```postgresql
+ALTER TABLE table_a ADD COLUMN new_column TEXT NOT NULL;
+
+ALTER TABLE table_b DROP COLUMN old_column;
 ```
 
 ## Conditional Expressions and Operators
