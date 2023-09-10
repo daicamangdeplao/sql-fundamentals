@@ -104,4 +104,3 @@ CREATE TABLE post_tag(
 ## References
 
 1. [PostgreSQL - One-To-One - which approach is "better"? [closed]](<https://stackoverflow.com/a/63990966/5657159>)
-2. 
