@@ -277,7 +277,7 @@ ALTER TABLE table_b DROP COLUMN old_column;
 ```
 
 ## Conditional Expressions and Operators
-
+****
 ### ``CASE``
 
 - ``CASE`` statement is very similar IF/ELSE
